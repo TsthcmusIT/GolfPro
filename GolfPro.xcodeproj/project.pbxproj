@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F0E6986A9417B5E3270CB7 /* Pods_GolfProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DA8EB5E5B17F45B4A95E1B /* Pods_GolfProTests.framework */; };
+		3C1F51E1A4CEDCF413389C38 /* Pods_GolfPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C076D153033CF2B34D843F /* Pods_GolfPro.framework */; };
+		59BF7191217F897400F2416F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7190217F897400F2416F /* AppDelegate.swift */; };
+		59BF7193217F897400F2416F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7192217F897400F2416F /* ViewController.swift */; };
+		59BF7196217F897400F2416F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BF7194217F897400F2416F /* Main.storyboard */; };
+		59BF7199217F897400F2416F /* GolfPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7197217F897400F2416F /* GolfPro.xcdatamodeld */; };
+		59BF719B217F897500F2416F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BF719A217F897500F2416F /* Assets.xcassets */; };
+		59BF719E217F897500F2416F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BF719C217F897500F2416F /* LaunchScreen.storyboard */; };
+		59BF71A9217F897500F2416F /* GolfProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF71A8217F897500F2416F /* GolfProTests.swift */; };
+		59BF71B4217F897500F2416F /* GolfProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF71B3217F897500F2416F /* GolfProUITests.swift */; };
+		E5E38CB7BC26091B4AEC8D4C /* Pods_GolfProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59BF71A5217F897500F2416F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BF7185217F897400F2416F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BF718C217F897400F2416F;
+			remoteInfo = GolfPro;
+		};
+		59BF71B0217F897500F2416F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BF7185217F897400F2416F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BF718C217F897400F2416F;
+			remoteInfo = GolfPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AC0B41FBB56158BB2D27221 /* Pods-GolfProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProUITests/Pods-GolfProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5279B1BD1A19387019103993 /* Pods-GolfProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProUITests/Pods-GolfProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59BF718D217F897400F2416F /* GolfPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF7190217F897400F2416F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59BF7192217F897400F2416F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59BF7195217F897400F2416F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59BF7198217F897400F2416F /* GolfPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GolfPro.xcdatamodel; sourceTree = "<group>"; };
+		59BF719A217F897500F2416F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BF719D217F897500F2416F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59BF719F217F897500F2416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BF71A4217F897500F2416F /* GolfProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF71A8217F897500F2416F /* GolfProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfProTests.swift; sourceTree = "<group>"; };
+		59BF71AA217F897500F2416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BF71AF217F897500F2416F /* GolfProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF71B3217F897500F2416F /* GolfProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfProUITests.swift; sourceTree = "<group>"; };
+		59BF71B5217F897500F2416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6145D36BE0452FC005079C2E /* Pods-GolfPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro.debug.xcconfig"; sourceTree = "<group>"; };
+		77CF9F79C708C50C9C0F3B67 /* Pods-GolfPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro.release.xcconfig"; sourceTree = "<group>"; };
+		78C076D153033CF2B34D843F /* Pods_GolfPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62EA1D623D2F49519DF4ABD /* Pods-GolfProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProTests/Pods-GolfProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0B055D1ABE6FA37B6C72514 /* Pods-GolfProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProTests/Pods-GolfProTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7DA8EB5E5B17F45B4A95E1B /* Pods_GolfProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59BF718A217F897400F2416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1F51E1A4CEDCF413389C38 /* Pods_GolfPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71A1217F897500F2416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F0E6986A9417B5E3270CB7 /* Pods_GolfProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71AC217F897500F2416F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E38CB7BC26091B4AEC8D4C /* Pods_GolfProUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3515A988C1A0C29076B65361 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6145D36BE0452FC005079C2E /* Pods-GolfPro.debug.xcconfig */,
+				77CF9F79C708C50C9C0F3B67 /* Pods-GolfPro.release.xcconfig */,
+				B62EA1D623D2F49519DF4ABD /* Pods-GolfProTests.debug.xcconfig */,
+				D0B055D1ABE6FA37B6C72514 /* Pods-GolfProTests.release.xcconfig */,
+				5279B1BD1A19387019103993 /* Pods-GolfProUITests.debug.xcconfig */,
+				3AC0B41FBB56158BB2D27221 /* Pods-GolfProUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		59BF7184217F897400F2416F = {
+			isa = PBXGroup;
+			children = (
+				59BF718F217F897400F2416F /* GolfPro */,
+				59BF71A7217F897500F2416F /* GolfProTests */,
+				59BF71B2217F897500F2416F /* GolfProUITests */,
+				59BF7197217F897400F2416F /* GolfPro.xcdatamodeld */,
+				59BF718E217F897400F2416F /* Products */,
+				3515A988C1A0C29076B65361 /* Pods */,
+				737AB914D655A209A6ACB204 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59BF718E217F897400F2416F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59BF718D217F897400F2416F /* GolfPro.app */,
+				59BF71A4217F897500F2416F /* GolfProTests.xctest */,
+				59BF71AF217F897500F2416F /* GolfProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BF718F217F897400F2416F /* GolfPro */ = {
+			isa = PBXGroup;
+			children = (
+				59BF7190217F897400F2416F /* AppDelegate.swift */,
+				59BF7192217F897400F2416F /* ViewController.swift */,
+				59BF7194217F897400F2416F /* Main.storyboard */,
+				59BF719A217F897500F2416F /* Assets.xcassets */,
+				59BF719C217F897500F2416F /* LaunchScreen.storyboard */,
+				59BF719F217F897500F2416F /* Info.plist */,
+			);
+			path = GolfPro;
+			sourceTree = "<group>";
+		};
+		59BF71A7217F897500F2416F /* GolfProTests */ = {
+			isa = PBXGroup;
+			children = (
+				59BF71A8217F897500F2416F /* GolfProTests.swift */,
+				59BF71AA217F897500F2416F /* Info.plist */,
+			);
+			path = GolfProTests;
+			sourceTree = "<group>";
+		};
+		59BF71B2217F897500F2416F /* GolfProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59BF71B3217F897500F2416F /* GolfProUITests.swift */,
+				59BF71B5217F897500F2416F /* Info.plist */,
+			);
+			path = GolfProUITests;
+			sourceTree = "<group>";
+		};
+		737AB914D655A209A6ACB204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78C076D153033CF2B34D843F /* Pods_GolfPro.framework */,
+				E7DA8EB5E5B17F45B4A95E1B /* Pods_GolfProTests.framework */,
+				4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59BF718C217F897400F2416F /* GolfPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BF71B8217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfPro" */;
+			buildPhases = (
+				89ABB0D0DBDDEDA3B9D04686 /* [CP] Check Pods Manifest.lock */,
+				59BF7189217F897400F2416F /* Sources */,
+				59BF718A217F897400F2416F /* Frameworks */,
+				59BF718B217F897400F2416F /* Resources */,
+				9DDD0F29EF6F5572443A36C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfPro;
+			productName = GolfPro;
+			productReference = 59BF718D217F897400F2416F /* GolfPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59BF71A3217F897500F2416F /* GolfProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BF71BB217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfProTests" */;
+			buildPhases = (
+				822C59380A4C43E80392D2E3 /* [CP] Check Pods Manifest.lock */,
+				59BF71A0217F897500F2416F /* Sources */,
+				59BF71A1217F897500F2416F /* Frameworks */,
+				59BF71A2217F897500F2416F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BF71A6217F897500F2416F /* PBXTargetDependency */,
+			);
+			name = GolfProTests;
+			productName = GolfProTests;
+			productReference = 59BF71A4217F897500F2416F /* GolfProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59BF71AE217F897500F2416F /* GolfProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BF71BE217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfProUITests" */;
+			buildPhases = (
+				9E49D3DA08322602A4C1C8E2 /* [CP] Check Pods Manifest.lock */,
+				59BF71AB217F897500F2416F /* Sources */,
+				59BF71AC217F897500F2416F /* Frameworks */,
+				59BF71AD217F897500F2416F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BF71B1217F897500F2416F /* PBXTargetDependency */,
+			);
+			name = GolfProUITests;
+			productName = GolfProUITests;
+			productReference = 59BF71AF217F897500F2416F /* GolfProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59BF7185217F897400F2416F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = tsthcmusit;
+				TargetAttributes = {
+					59BF718C217F897400F2416F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					59BF71A3217F897500F2416F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 59BF718C217F897400F2416F;
+					};
+					59BF71AE217F897500F2416F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 59BF718C217F897400F2416F;
+					};
+				};
+			};
+			buildConfigurationList = 59BF7188217F897400F2416F /* Build configuration list for PBXProject "GolfPro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59BF7184217F897400F2416F;
+			productRefGroup = 59BF718E217F897400F2416F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BF718C217F897400F2416F /* GolfPro */,
+				59BF71A3217F897500F2416F /* GolfProTests */,
+				59BF71AE217F897500F2416F /* GolfProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59BF718B217F897400F2416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF719E217F897500F2416F /* LaunchScreen.storyboard in Resources */,
+				59BF719B217F897500F2416F /* Assets.xcassets in Resources */,
+				59BF7196217F897400F2416F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71A2217F897500F2416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71AD217F897500F2416F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		822C59380A4C43E80392D2E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GolfProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89ABB0D0DBDDEDA3B9D04686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GolfPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDD0F29EF6F5572443A36C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BATabBarController/BATabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BATabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E49D3DA08322602A4C1C8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GolfProUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BF7189217F897400F2416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF7199217F897400F2416F /* GolfPro.xcdatamodeld in Sources */,
+				59BF7193217F897400F2416F /* ViewController.swift in Sources */,
+				59BF7191217F897400F2416F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71A0217F897500F2416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF71A9217F897500F2416F /* GolfProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BF71AB217F897500F2416F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BF71B4217F897500F2416F /* GolfProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59BF71A6217F897500F2416F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BF718C217F897400F2416F /* GolfPro */;
+			targetProxy = 59BF71A5217F897500F2416F /* PBXContainerItemProxy */;
+		};
+		59BF71B1217F897500F2416F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BF718C217F897400F2416F /* GolfPro */;
+			targetProxy = 59BF71B0217F897500F2416F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59BF7194217F897400F2416F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BF7195217F897400F2416F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59BF719C217F897500F2416F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BF719D217F897500F2416F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59BF71B6217F897500F2416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59BF71B7217F897500F2416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59BF71B9217F897500F2416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6145D36BE0452FC005079C2E /* Pods-GolfPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BF71BA217F897500F2416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77CF9F79C708C50C9C0F3B67 /* Pods-GolfPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59BF71BC217F897500F2416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62EA1D623D2F49519DF4ABD /* Pods-GolfProTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfPro.app/GolfPro";
+			};
+			name = Debug;
+		};
+		59BF71BD217F897500F2416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B055D1ABE6FA37B6C72514 /* Pods-GolfProTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfPro.app/GolfPro";
+			};
+			name = Release;
+		};
+		59BF71BF217F897500F2416F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5279B1BD1A19387019103993 /* Pods-GolfProUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfPro;
+			};
+			name = Debug;
+		};
+		59BF71C0217F897500F2416F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC0B41FBB56158BB2D27221 /* Pods-GolfProUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GolfProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tsthcmusit.GolfProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59BF7188217F897400F2416F /* Build configuration list for PBXProject "GolfPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BF71B6217F897500F2416F /* Debug */,
+				59BF71B7217F897500F2416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BF71B8217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BF71B9217F897500F2416F /* Debug */,
+				59BF71BA217F897500F2416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BF71BB217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BF71BC217F897500F2416F /* Debug */,
+				59BF71BD217F897500F2416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BF71BE217F897500F2416F /* Build configuration list for PBXNativeTarget "GolfProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BF71BF217F897500F2416F /* Debug */,
+				59BF71C0217F897500F2416F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		59BF7197217F897400F2416F /* GolfPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				59BF7198217F897400F2416F /* GolfPro.xcdatamodel */,
+			);
+			currentVersion = 59BF7198217F897400F2416F /* GolfPro.xcdatamodel */;
+			path = GolfPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 59BF7185217F897400F2416F /* Project object */;
+}
