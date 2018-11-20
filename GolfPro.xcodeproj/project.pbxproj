@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		25F0E6986A9417B5E3270CB7 /* Pods_GolfProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DA8EB5E5B17F45B4A95E1B /* Pods_GolfProTests.framework */; };
 		3C1F51E1A4CEDCF413389C38 /* Pods_GolfPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C076D153033CF2B34D843F /* Pods_GolfPro.framework */; };
+		5910BFDD218CB4A50078EC4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFDC218CB4A50078EC4D /* AudioToolbox.framework */; };
+		5910BFDF218CB4B70078EC4D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFDE218CB4B70078EC4D /* AVFoundation.framework */; };
+		5910BFE9218CB52C0078EC4D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE0218CB52C0078EC4D /* MobileCoreServices.framework */; };
+		5910BFEA218CB52C0078EC4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE1218CB52C0078EC4D /* QuartzCore.framework */; };
+		5910BFEB218CB52C0078EC4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE2218CB52C0078EC4D /* Foundation.framework */; };
+		5910BFEC218CB52C0078EC4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE3218CB52C0078EC4D /* UIKit.framework */; };
+		5910BFED218CB52C0078EC4D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE4218CB52C0078EC4D /* Social.framework */; };
+		5910BFEE218CB52C0078EC4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE5218CB52C0078EC4D /* CoreGraphics.framework */; };
+		5910BFEF218CB52C0078EC4D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE6218CB52C0078EC4D /* MediaPlayer.framework */; };
+		5910BFF0218CB52C0078EC4D /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE7218CB52C0078EC4D /* CoreAudioKit.framework */; };
+		5910BFF1218CB52C0078EC4D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5910BFE8218CB52C0078EC4D /* MessageUI.framework */; };
+		5910BFF7218CBA790078EC4D /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910BFF6218CBA790078EC4D /* VideoInfo.swift */; };
 		59BF7191217F897400F2416F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7190217F897400F2416F /* AppDelegate.swift */; };
 		59BF7193217F897400F2416F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7192217F897400F2416F /* ViewController.swift */; };
 		59BF7196217F897400F2416F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BF7194217F897400F2416F /* Main.storyboard */; };
@@ -17,6 +29,9 @@
 		59BF719E217F897500F2416F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BF719C217F897500F2416F /* LaunchScreen.storyboard */; };
 		59BF71A9217F897500F2416F /* GolfProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF71A8217F897500F2416F /* GolfProTests.swift */; };
 		59BF71B4217F897500F2416F /* GolfProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BF71B3217F897500F2416F /* GolfProUITests.swift */; };
+		59FF0BB721909A7700A193F8 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF0BB621909A7700A193F8 /* UserProfile.swift */; };
+		59FF0BBA2190A5D900A193F8 /* SwingVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FF0BB82190A5D900A193F8 /* SwingVideoViewController.swift */; };
+		59FF0BBB2190A5D900A193F8 /* SwingVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59FF0BB92190A5D900A193F8 /* SwingVideoViewController.xib */; };
 		E5E38CB7BC26091B4AEC8D4C /* Pods_GolfProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +56,18 @@
 		3AC0B41FBB56158BB2D27221 /* Pods-GolfProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProUITests/Pods-GolfProUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5279B1BD1A19387019103993 /* Pods-GolfProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfProUITests/Pods-GolfProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5910BFDC218CB4A50078EC4D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5910BFDE218CB4B70078EC4D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5910BFE0218CB52C0078EC4D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5910BFE1218CB52C0078EC4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5910BFE2218CB52C0078EC4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5910BFE3218CB52C0078EC4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5910BFE4218CB52C0078EC4D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5910BFE5218CB52C0078EC4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5910BFE6218CB52C0078EC4D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5910BFE7218CB52C0078EC4D /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		5910BFE8218CB52C0078EC4D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5910BFF6218CBA790078EC4D /* VideoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
 		59BF718D217F897400F2416F /* GolfPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BF7190217F897400F2416F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59BF7192217F897400F2416F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +82,9 @@
 		59BF71AF217F897500F2416F /* GolfProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BF71B3217F897500F2416F /* GolfProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfProUITests.swift; sourceTree = "<group>"; };
 		59BF71B5217F897500F2416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FF0BB621909A7700A193F8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		59FF0BB82190A5D900A193F8 /* SwingVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingVideoViewController.swift; sourceTree = "<group>"; };
+		59FF0BB92190A5D900A193F8 /* SwingVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwingVideoViewController.xib; sourceTree = "<group>"; };
 		6145D36BE0452FC005079C2E /* Pods-GolfPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro.debug.xcconfig"; sourceTree = "<group>"; };
 		77CF9F79C708C50C9C0F3B67 /* Pods-GolfPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolfPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolfPro/Pods-GolfPro.release.xcconfig"; sourceTree = "<group>"; };
 		78C076D153033CF2B34D843F /* Pods_GolfPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolfPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +98,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5910BFE9218CB52C0078EC4D /* MobileCoreServices.framework in Frameworks */,
+				5910BFEA218CB52C0078EC4D /* QuartzCore.framework in Frameworks */,
+				5910BFEB218CB52C0078EC4D /* Foundation.framework in Frameworks */,
+				5910BFEC218CB52C0078EC4D /* UIKit.framework in Frameworks */,
+				5910BFED218CB52C0078EC4D /* Social.framework in Frameworks */,
+				5910BFEE218CB52C0078EC4D /* CoreGraphics.framework in Frameworks */,
+				5910BFEF218CB52C0078EC4D /* MediaPlayer.framework in Frameworks */,
+				5910BFF0218CB52C0078EC4D /* CoreAudioKit.framework in Frameworks */,
+				5910BFF1218CB52C0078EC4D /* MessageUI.framework in Frameworks */,
+				5910BFDF218CB4B70078EC4D /* AVFoundation.framework in Frameworks */,
+				5910BFDD218CB4A50078EC4D /* AudioToolbox.framework in Frameworks */,
 				3C1F51E1A4CEDCF413389C38 /* Pods_GolfPro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +145,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5910BFD7218CADF00078EC4D /* Swing */ = {
+			isa = PBXGroup;
+			children = (
+				59FF0BB82190A5D900A193F8 /* SwingVideoViewController.swift */,
+				59FF0BB92190A5D900A193F8 /* SwingVideoViewController.xib */,
+			);
+			path = Swing;
+			sourceTree = "<group>";
+		};
+		5910BFF2218CB72A0078EC4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5910BFF6218CBA790078EC4D /* VideoInfo.swift */,
+				59FF0BB621909A7700A193F8 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		59BF7184217F897400F2416F = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +189,8 @@
 		59BF718F217F897400F2416F /* GolfPro */ = {
 			isa = PBXGroup;
 			children = (
+				5910BFF2218CB72A0078EC4D /* Models */,
+				5910BFD7218CADF00078EC4D /* Swing */,
 				59BF7190217F897400F2416F /* AppDelegate.swift */,
 				59BF7192217F897400F2416F /* ViewController.swift */,
 				59BF7194217F897400F2416F /* Main.storyboard */,
@@ -161,6 +222,17 @@
 		737AB914D655A209A6ACB204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5910BFE7218CB52C0078EC4D /* CoreAudioKit.framework */,
+				5910BFE5218CB52C0078EC4D /* CoreGraphics.framework */,
+				5910BFE2218CB52C0078EC4D /* Foundation.framework */,
+				5910BFE6218CB52C0078EC4D /* MediaPlayer.framework */,
+				5910BFE8218CB52C0078EC4D /* MessageUI.framework */,
+				5910BFE0218CB52C0078EC4D /* MobileCoreServices.framework */,
+				5910BFE1218CB52C0078EC4D /* QuartzCore.framework */,
+				5910BFE4218CB52C0078EC4D /* Social.framework */,
+				5910BFE3218CB52C0078EC4D /* UIKit.framework */,
+				5910BFDE218CB4B70078EC4D /* AVFoundation.framework */,
+				5910BFDC218CB4A50078EC4D /* AudioToolbox.framework */,
 				78C076D153033CF2B34D843F /* Pods_GolfPro.framework */,
 				E7DA8EB5E5B17F45B4A95E1B /* Pods_GolfProTests.framework */,
 				4C7DD3E68C2E648CB00E13DB /* Pods_GolfProUITests.framework */,
@@ -279,6 +351,7 @@
 				59BF719E217F897500F2416F /* LaunchScreen.storyboard in Resources */,
 				59BF719B217F897500F2416F /* Assets.xcassets in Resources */,
 				59BF7196217F897400F2416F /* Main.storyboard in Resources */,
+				59FF0BBB2190A5D900A193F8 /* SwingVideoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +471,9 @@
 			files = (
 				59BF7199217F897400F2416F /* GolfPro.xcdatamodeld in Sources */,
 				59BF7193217F897400F2416F /* ViewController.swift in Sources */,
+				59FF0BB721909A7700A193F8 /* UserProfile.swift in Sources */,
+				59FF0BBA2190A5D900A193F8 /* SwingVideoViewController.swift in Sources */,
+				5910BFF7218CBA790078EC4D /* VideoInfo.swift in Sources */,
 				59BF7191217F897400F2416F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

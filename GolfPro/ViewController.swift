@@ -34,9 +34,11 @@ class ViewController: UIViewController, BATabBarControllerDelegate {
     override func viewDidLayoutSubviews() {
         if firstTime {
             var feedTabBarItem, settingsTabBarItem, profileTabBarItem: BATabBarItem
-            var feedViewController, settingsViewController, profileViewController: UIViewController
+            var feedViewController: SwingVideoViewController
+            var settingsViewController, profileViewController: UIViewController
             
-            feedViewController = UIViewController.init()
+            feedViewController = SwingVideoViewController.init(nibName: "SwingVideoViewController", bundle: nil)
+            var aObjNavi = UINavigationController(rootViewController: feedViewController)
             settingsViewController = UIViewController.init()
             profileViewController = UIViewController.init()
             
@@ -75,7 +77,7 @@ class ViewController: UIViewController, BATabBarControllerDelegate {
             }
             
             viewController = BATabBarController.init()
-            viewController.viewControllers = NSArray.init(objects: feedViewController, settingsViewController, profileViewController) as? [UIViewController]
+            viewController.viewControllers = NSArray.init(objects: aObjNavi, settingsViewController, profileViewController) as? [UIViewController]
             viewController.tabBarItems = (NSArray.init(objects: feedTabBarItem, settingsTabBarItem, profileTabBarItem) as! [BATabBarItem])
             viewController.setSelectedView(settingsViewController, animated: false)
             
